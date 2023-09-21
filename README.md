@@ -7,7 +7,7 @@ You can either pipe and findstr or you can even use the argument -TaskName "" if
 Here it throws an error because it requires and interactive yes/no. You can pass the -Confirm:$False to force the removal without an interactive approval
 
 C:\> runscript -Raw=```get-scheduledtask | findstr "OneStart"
-```
+
 \                                              OneStart Chromium                 Ready     
 \                                              OneStart Updater                  Ready
 C:\> runscript -Raw=```Unregister-ScheduledTask -TaskName "OneStart Chromium" ```
