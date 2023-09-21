@@ -3,7 +3,7 @@
 
 Identifying rogue scheduled tasks and removing them via CrowdStrike RTR.
 
-First identify the schedule tasks you want to remove by using the get-scheduledtasks command .
+First identify the schedule tasks you want to remove by using the get-scheduledtask command .
 
 You can either pipe and findstr or you can even use the argument -TaskName "" if you know the full taskname
 
